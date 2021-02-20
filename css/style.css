@@ -1,3 +1,41 @@
+:root {
+  --vermelho: #e50914;
+  --preto: #141414;
+}
+
+* {
+  margin: 0; /*obrigatorio*/
+  padding: 0; /*obrigatorio*/
+  box-sizing: border-box; /*obrigatorio*/
+  font-family: "Times New Roman", Times, serif; /*obrigatorio*/
+}
+
 body {
-  background-color: blue;
+  background: var(--preto);
+}
+
+header .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h2 {
+  color: var(--vermelho);
+  font-family: "Arial", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 5px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #aaa;
+  margin-right: 10px;
+}
+
+header nav a:hover {
+  color: #fff;
 }
