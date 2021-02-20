@@ -23,7 +23,7 @@ header .container {
   justify-content: space-between;
 }
 
-header .titulo {
+header h2 {
   color: var(--vermelho);
   font-family: "Arial", sans-serif;
   font-size: 40px;
@@ -56,10 +56,47 @@ header nav a:hover {
   background-size: cover;
 }
 
-.titulo {
-  font-size: 40 px;
+.cena-principal img {
+  width: 200px;
+  margin-left: 50px;
+  background-size: cover;
+}
+.cena-principal .titulo {
+  margin-top: 8%;
+  font-size: 40px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 .cena-principal .descricao {
-  margin-bottom: 90px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.botao {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: #fff;
+  padding: 15px 30px;
+  margin-right: 15px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: 0.5s ease all;
+}
+
+.botao:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.botao i {
+  margin: 5px;
+}
+
+.container {
+  margin-left: 20px;
+}
+
+.cena-principal .container {
+  width: 70%;
 }
