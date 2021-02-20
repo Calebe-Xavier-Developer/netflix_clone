@@ -1,0 +1,43 @@
+@media screen and (max-width: 700px) {
+  header .container nav a {
+    display: none;
+    flex-direction: column;
+  }
+  header .container nav i {
+    display: block;
+    color: #fff;
+    margin-right: 50px;
+  }
+  .botao {
+    margin-bottom: 5px;
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .descricao {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cena-principal img {
+    margin-top: 60px;
+    width: 120px;
+  }
+  .cena-principal .titulo {
+    margin-top: 1%;
+    font-size: 30px;
+  }
+  .cena-principal .descricao {
+    margin-top: 10px;
+    margin-bottom: 25px;
+  }
+  .botoes {
+    margin-bottom: 100px;
+  }
+  .filmes-list {
+    width: 380px !important;
+    margin: 0 auto;
+  }
+}

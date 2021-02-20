@@ -21,6 +21,7 @@ header .container {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  background-size: cover;
 }
 
 header h2 {
@@ -32,10 +33,14 @@ header h2 {
   margin-left: 5px;
 }
 
-header nav a {
+header .container nav a {
   text-decoration: none;
   color: #aaa;
   margin-right: 10px;
+}
+
+header .container nav i {
+  display: none;
 }
 
 header nav a:hover {
@@ -57,6 +62,7 @@ header nav a:hover {
 }
 
 .cena-principal img {
+  margin-top: 20px;
   width: 200px;
   margin-left: 50px;
   background-size: cover;
@@ -66,11 +72,13 @@ header nav a:hover {
   font-size: 40px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  background-size: cover;
 }
 
 .cena-principal .descricao {
   margin-top: 20px;
   margin-bottom: 50px;
+  background-size: cover;
 }
 
 .botao {
@@ -82,6 +90,7 @@ header nav a:hover {
   font-size: 12px;
   cursor: pointer;
   transition: 0.5s ease all;
+  margin-bottom: 10px;
 }
 
 .botao:hover {
@@ -105,4 +114,8 @@ header nav a:hover {
   height: 50%;
   width: 50%;
   display: block;
+}
+
+.carrosel {
+  margin-top: 5px;
 }
