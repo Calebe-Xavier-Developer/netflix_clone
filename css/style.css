@@ -100,3 +100,9 @@ header nav a:hover {
 .cena-principal .container {
   width: 70%;
 }
+
+.filmes-list {
+  height: 50%;
+  width: 50%;
+  display: block;
+}
