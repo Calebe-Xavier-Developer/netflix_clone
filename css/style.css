@@ -12,6 +12,8 @@
 
 body {
   background: var(--preto);
+  color: #fff;
+  height: 100vh;
 }
 
 header .container {
@@ -21,7 +23,7 @@ header .container {
   justify-content: space-between;
 }
 
-header h2 {
+header .titulo {
   color: var(--vermelho);
   font-family: "Arial", sans-serif;
   font-size: 40px;
@@ -38,4 +40,26 @@ header nav a {
 
 header nav a:hover {
   color: #fff;
+}
+
+/*Conteudo na Main*/
+
+.cena-principal {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  height: 400px;
+  font-size: 16px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+    url(../img/bg.jpg);
+  background-size: cover;
+}
+
+.titulo {
+  font-size: 40 px;
+}
+
+.cena-principal .descricao {
+  margin-bottom: 90px;
 }
